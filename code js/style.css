@@ -1,0 +1,14 @@
+body {
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 55px;
+}
