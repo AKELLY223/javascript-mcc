@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  background: linear-gradient(135deg, #0b8b3c 0%, #f1c40f 50%, #c0392b 100%);
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* STRUCTURE */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 5px dashed #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 2rem;
+}
+
+main {
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem;
+}
+
+.gauche,
+.droite {
+  width: 45rem;
+}
+
+.gauche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.droite {
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 10px #000;
+}
+
+/* TITRE & NUMÉRO */
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.chiffre {
+  background-color: #fff;
+  color: #0b8b3c;
+  font-size: 6rem;
+  width: 14rem;
+  height: 14rem;
+  line-height: 14rem;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 4px solid #f1c40f;
+  box-shadow: 0 0 20px #fff;
+}
+
+/* INDICATIONS */
+.entre {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #f1c40f;
+}
+
+.message {
+  margin-bottom: 5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.label-score,
+.label-record {
+  margin-bottom: 1.5rem;
+  color: #f1c40f;
+}
+
+/* BOUTONS ET INPUTS */
+.proposition {
+  font-size: 4rem;
+  padding: 1.5rem;
+  width: 100%;
+  text-align: center;
+  border: 3px solid #fff;
+  background: none;
+  color: #fff;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1.5rem 3rem;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 1rem;
+  background-color: #f1c40f;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #0b8b3c;
+}
+
+.recommencer {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.verifier {
+  margin-top: 1rem;
+}

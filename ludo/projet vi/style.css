@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  height: 100vh;
+  color: #222;
+  background: linear-gradient(to bottom right, #0b8b3c, #f1c40f, #c0392b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  width: 100rem;
+  height: 60rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  display: flex;
+}
+
+.joueur {
+  flex: 1;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.nom {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.score {
+  font-size: 7rem;
+  font-weight: 400;
+  color: #c0392b;
+  margin-bottom: auto;
+}
+
+.actuel {
+  background-color: #0b8b3c;
+  color: #fff;
+  width: 60%;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.label-actuel {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #eee;
+}
+
+.score-actuel {
+  font-size: 3.5rem;
+}
+
+.joueur--actif {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.joueur--actif .nom {
+  color: #0b8b3c;
+}
+
+.joueur--gagnant {
+  background-color: #222;
+}
+
+.joueur--gagnant .nom {
+  color: #f1c40f;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #0b8b3c;
+}
+
+.btn--nouveau {
+  top: 3rem;
+}
+.btn--lancer {
+  top: 38rem;
+}
+.btn--garder {
+  top: 45rem;
+}
+
+.de {
+  position: absolute;
+  top: 17rem;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
+}
+
+.hidden {
+  display: none;
+}

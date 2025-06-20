@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Devine mon chiffre !</title>
+  </head>
+  <body>
+    <header>
+      <h1>Devine mon chiffre !</h1>
+      <p class="entre">(Entre 1 et 20)</p>
+      <button class="btn recommencer">Rejouer</button>
+      <div class="chiffre">?</div>
+    </header>
+    <main>
+      <section class="gauche">
+        <input type="number" class="proposition" />
+        <button class="btn verifier">Vérifier</button>
+      </section>
+      <section class="droite">
+        <p class="message">Commence à deviner...</p>
+        <p class="label-score">💯 Score : <span class="score">20</span></p>
+        <p class="label-record">
+          🥇 Meilleur score : <span class="record">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

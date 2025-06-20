@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jeu de Dés - Mali 🇲🇱</title>
+  </head>
+  <body>
+    <main>
+      <section class="joueur joueur--0 joueur--actif">
+        <h2 class="nom" id="nom--0">Joueur 1</h2>
+        <p class="score" id="score--0">0</p>
+        <div class="actuel">
+          <p class="label-actuel">Tour</p>
+          <p class="score-actuel" id="actuel--0">0</p>
+        </div>
+      </section>
+      <section class="joueur joueur--1">
+        <h2 class="nom" id="nom--1">Joueur 2</h2>
+        <p class="score" id="score--1">0</p>
+        <div class="actuel">
+          <p class="label-actuel">Tour</p>
+          <p class="score-actuel" id="actuel--1">0</p>
+        </div>
+      </section>
+
+      <img src="dice-5.png" alt="Dé" class="de" />
+      <button class="btn btn--nouveau">🔄 Nouveau jeu</button>
+      <button class="btn btn--lancer">🎲 Lancer</button>
+      <button class="btn btn--garder">📥 Garder</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
