@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
   margin: 0;
@@ -11,13 +11,14 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
-  height: 100vh;
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
   color: #222;
   background: linear-gradient(to bottom right, #0b8b3c, #f1c40f, #c0392b);
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
 }
 
 main {
@@ -29,11 +30,12 @@ main {
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
   border-radius: 12px;
   display: flex;
+  overflow: hidden;
 }
 
 .joueur {
   flex: 1;
-  padding: 6rem;
+  padding: 8rem 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,6 +48,7 @@ main {
   margin-bottom: 1rem;
   font-weight: 600;
   color: #222;
+  text-align: center;
 }
 
 .score {
@@ -59,16 +62,17 @@ main {
   background-color: #0b8b3c;
   color: #fff;
   width: 60%;
+  min-width: 15rem;
   border-radius: 1rem;
   padding: 1.5rem;
   text-align: center;
-  margin-top: 2rem;
 }
 
 .label-actuel {
   font-size: 1.8rem;
   text-transform: uppercase;
   color: #eee;
+  margin-bottom: 0.5rem;
 }
 
 .score-actuel {
@@ -133,4 +137,61 @@ main {
 
 .hidden {
   display: none;
+}
+
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+    width: 90vw;
+    max-width: 50rem;
+    height: auto;
+  }
+
+  .joueur {
+    padding: 3rem 2rem;
+  }
+
+  .score {
+    margin-bottom: 4rem;
+  }
+
+  .btn,
+  .de {
+    position: static;
+    transform: none;
+    margin: 1.5rem auto;
+  }
+
+  .de {
+    height: 8rem;
+    order: -1;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .btn--nouveau {
+    order: -2;
+    margin-top: 0;
+  }
+
+  .btn--lancer,
+  .btn--garder {
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .nom {
+    font-size: 3rem;
+  }
+  .score {
+    font-size: 6rem;
+  }
+  .actuel {
+    width: 80%;
+  }
+  .btn {
+    font-size: 1.6rem;
+    padding: 1.2rem 2.5rem;
+  }
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 
 * {
   margin: 0;
@@ -11,13 +11,12 @@ html {
 }
 
 body {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
   background: linear-gradient(135deg, #0b8b3c 0%, #f1c40f 50%, #c0392b 100%);
   color: #fff;
   min-height: 100vh;
 }
 
-/* STRUCTURE */
 header {
   position: relative;
   height: 35vh;
@@ -54,7 +53,6 @@ main {
   box-shadow: 0 0 10px #000;
 }
 
-/* TITRE & NUMÉRO */
 h1 {
   font-size: 3.5rem;
   margin-bottom: 1.5rem;
@@ -75,7 +73,6 @@ h1 {
   box-shadow: 0 0 20px #fff;
 }
 
-/* INDICATIONS */
 .entre {
   font-size: 1.5rem;
   margin-top: 1rem;
@@ -91,10 +88,9 @@ h1 {
 .label-score,
 .label-record {
   margin-bottom: 1.5rem;
-  color: #f1c40f;
+  color: #fff;
 }
 
-/* BOUTONS ET INPUTS */
 .proposition {
   font-size: 4rem;
   padding: 1.5rem;
@@ -133,4 +129,58 @@ h1 {
 
 .verifier {
   margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+    padding-bottom: 3rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  main {
+    flex-direction: column;
+    height: auto;
+    padding: 3rem 1rem;
+    gap: 4rem;
+  }
+
+  .droite {
+    order: 2;
+    width: 90%;
+    max-width: 40rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .gauche {
+    order: 1;
+    width: 90%;
+    max-width: 40rem;
+  }
+
+  .recommencer {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .chiffre {
+    font-size: 5rem;
+    width: 10rem;
+    height: 10rem;
+    line-height: 10rem;
+  }
+
+  .proposition {
+    font-size: 3.5rem;
+  }
 }
