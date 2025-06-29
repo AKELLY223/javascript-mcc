@@ -18,30 +18,41 @@ Ces projets sont conçus pour aider les étudiants à mieux comprendre et maîtr
 ## ✅ Projets réalisés
 
 ### 1. **Devine mon nombre**
+
 Le joueur doit deviner un nombre aléatoire entre 1 et 20. À chaque tentative, des indices sont donnés pour l'aider.  
 🎯 Concepts abordés : conditions, événements, logique de jeu, génération aléatoire.
 
 ### 2. **Fenêtre (popup)**
+
 Affichage et masquage dynamique d’une fenêtre modale en cliquant sur des boutons.  
 🎯 Concepts abordés : manipulation du DOM, gestion des classes CSS, interaction utilisateur.
 
 ### 3. **Jeu du dé (2 joueurs)**
+
 Deux joueurs lancent un dé à tour de rôle. Un joueur peut accumuler des points ou passer la main. Le premier à atteindre un certain score gagne.  
 🎯 Concepts abordés : conditions, fonctions, logique de tour, gestion d’état, événements.
+
+### 4. **Apple Store**
+
+Page web responsive simulant une vitrine Apple, où l’on peut cliquer sur différents modèles d’iPhone pour changer l’image principale et la couleur d’arrière-plan.  
+🎯 Concepts abordés : manipulation du DOM, attributs data, gestion des événements.
 
 ---
 
 ## 🚧 Projets à venir
 
 ### 1. **Compteur de clics**
+
 Un bouton qui compte combien de fois il a été cliqué.  
 🎯 Concepts abordés : événements, manipulation du DOM.
 
 ### 2. **Calculatrice simple**
+
 Une calculatrice qui permet d’effectuer les opérations de base (addition, soustraction, multiplication, division).  
 🎯 Concepts abordés : conditions, fonctions, affichage dynamique.
 
 ### 3. **Générateur de citations**
+
 Une page qui affiche aléatoirement une citation à chaque fois qu'on clique sur un bouton.  
 🎯 Concepts abordés : tableaux, `Math.random()`, fonctions.
 
@@ -72,6 +83,4 @@ Utilisation libre à des fins éducatives.
 - Facebook :(https://web.facebook.com/MaliCode223/)
 - YouTube : (https://youtube.com/@ml_code?si=owYMLWlwzJabJYzi)
 
-
 ---
-
