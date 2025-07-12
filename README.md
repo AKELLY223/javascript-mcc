@@ -37,6 +37,11 @@ Deux joueurs lancent un dé à tour de rôle. Un joueur peut accumuler des point
 Page web responsive simulant une vitrine Apple, où l’on peut cliquer sur différents modèles d’iPhone pour changer l’image principale et la couleur d’arrière-plan.  
 🎯 Concepts abordés : manipulation du DOM, attributs data, gestion des événements.
 
+### 5. **Bienvenue utilisateur**
+
+Un petit formulaire avec un champ texte. L'utilisateur entre son nom, et un message de bienvenue personnalisé s'affiche (ex. : _Bienvenue Mali_Code_).  
+🎯 Concepts abordés : événements, `input`, manipulation du DOM, affichage dynamique.
+
 ---
 
 ## 🚧 Projets à venir
