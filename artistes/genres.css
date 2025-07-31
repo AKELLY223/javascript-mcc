@@ -1,0 +1,21 @@
+.genre-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.genre-tag {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.genre-tag:hover {
+  background-color: #2980b9;
+}
